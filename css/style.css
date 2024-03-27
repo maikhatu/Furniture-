@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  margin: 0
+}
+header {
+  width: 100%;
+  height: 55px;
+  background-color: #F5F5F5;
+  padding: 15px
+}
+html {
+  scroll-behavior: smooth
+}
+.logo {
+  width: 130px;
+  height: auto;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: #636363
+}
+.menu ul li a:hover {
+  background-color: #945336;
+  color: #F7F7F7
+}
+.icon {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.icon a i {
+  color: #222222;
+  padding: 0 10px
+}
+.icon a i:hover {
+  color: #945336;
+}
+.banner {
+  width: 100%;
+  min-height: 500px;
+}
+.text-xam {
+  color: #636363;
+  border-bottom: 2px solid #945336
+}
+.gach-chan {
+  border-bottom: 2px solid #945336
+}
+.vien {
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #945336;
+  padding: 10px;
+  position: relative;
+  overflow: hidden
+}
+.text-den {
+  color: #101010
+}
+.text-do {
+  color: #730D0F
+}
+.icon2 {
+  position: absolute;
+  width: 80%;
+  height: 40px;
+  left: 10%;
+  top: -15%;
+  justify-content: space-around;
+  transition: all 1s
+}
+.icon2 a {
+  height: 40px;
+  width: 40px;
+  background-color: #EEEEEE;
+  color: #730D0F;
+  border-radius: 50px;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+.icon2 a:hover {
+  background-color: #730D0F;
+  color: white
+}
+.vien:hover .icon2 {
+  top: 27%;
+}
+#feauture {
+  width: 100%;
+  min-height: 500px;
+  background-image: url("../images/bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center
+}
+.pd-top {
+  padding-top: 40px
+}
+.vien2 p a {
+  color: #730D0F;
+  text-decoration: none
+}
+.vien2 p a:hover {
+  color: white
+}
+.vien2 {
+  width: 100%;
+  height: 100px;
+  border: 2px solid white
+}
+footer {
+  width: 100%;
+  height: 300px;
+  position: relative
+}
+.form-control {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%
+}
+.container3 {
+  width: 35%;
+  height: auto;
+  position: absolute;
+  left: 35%;
+  top: 30%
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #945336;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer
+}
+.btn:hover {
+  background-color: darkred;
+  color: white
+}
+#contact {
+  width: 100%;
+  min-height: 400px;
+  background-image: url("../images/Banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+.shadow {
+  border: 1px solid #2D2D2D;
+  padding: 30px;
+  width: 100%;
+  min-height: 300px;
+  box-shadow: 5px 5px 5px gray
+}
+.col-6 p a {
+  color: #666666;
+  text-decoration: none;
+  font-size: 15px
+}
+.col-6 p a:hover {
+  background-color: darkred;
+  color: white;
+  border-radius: 15px;
+  padding: 5px
+}
+.sale {
+  color: white;
+  background-color: darkred;
+  width: 60px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 5%;
+  top: 7%
+}
+/*stye trang 2*/
+.thanhdo {
+  width: 100%;
+  height: 30px;
+  background-color: darkred;
+  color: #F4F4F4;
+  padding: 15px;
+  font-size: 15px
+}
+.container p {
+  margin-top: -9px
+}
+#info {
+  min-height: 400px;
+  margin-top: 15px;
+}
+.col-5 {
+  min-height: 300px;
+  padding: 15px;
+}
+.col-7 {
+  min-height: 300px;
+  padding: 25px;
+}
+.vien-ghe {
+  border: 1px solid #945336
+}
+.oval-red {
+  background-color: darkred;
+  padding: 4px;
+  border-radius: 15px;
+  color: white;
+  margin-left: 12px;
+}
+.vien-tron {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #666666;
+  border-radius: 500px;
+  padding: 2px;
+  margin-right: 15px
+}
+.cart{
+  width: 100%;
+  height: 50px;
+  background-color: #101010;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px
+}
+.cart:hover{
+	background-color: darkred;
+	color:white;
+}
+.thanh-xam{
+  width: 100%;
+  height: 80px;
+  background-color:#F5F5F5;
+  color: #101010;
+  padding: 1px;
+  font-size: 15px;
+text-align: center
+}
+#detail{
+	width: 60%;
+	min-height: 100px;
+	background-color: #F5F5F5;
+	color: #101010;
+	padding: 30px 50px;
+	display: flex;
+	flex-direction: column;
+}
+#detail ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column
+}
+#detail ul li{
+	border-bottom: 1px solid #101010
+}
+#detail ul li a{
+	text-decoration: none;
+	color: #101010;
+	display: block;
+	padding: 15px
+}
